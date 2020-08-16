@@ -12,7 +12,10 @@ yum install httpd -y
 サーバにapacheをインストール
 
 service httpd start
-apachを立ち上げる
+apacheを立ち上げる
+
+service httpd stop
+apacheを停止する
 
 cd /var/www/html
 apach内のhtmlフォルダに移動する
