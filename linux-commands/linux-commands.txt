@@ -1,0 +1,25 @@
+
+ssh -i ~/.ssh/udemy_sample.pem ec2-user@18.183.234.145
+EC2インスタンスへSSH接続。
+
+sudo su - 
+ルート権限へ移行
+
+yum update -y 
+ソフトウェア更新状況を確認
+
+yum install httpd -y 
+サーバにapacheをインストール
+
+service httpd start
+apachを立ち上げる
+
+cd /var/www/html
+apach内のhtmlフォルダに移動する
+
+nano index.html
+nanoエディタを利用してindex.htmlファイルを作成
+
+service httpd restart
+
+
