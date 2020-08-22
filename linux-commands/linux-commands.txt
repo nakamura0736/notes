@@ -11,11 +11,17 @@ yum update -y
 yum install httpd -y 
 サーバにapacheをインストール
 
+yum list installed | grep httpd
+apacheがインストールされているか確認
+
 service httpd start
 apacheを立ち上げる
 
 service httpd stop
 apacheを停止する
+
+service httpd restart
+apache再起動
 
 cd /var/www/html
 apach内のhtmlフォルダに移動する
@@ -23,6 +29,5 @@ apach内のhtmlフォルダに移動する
 nano index.html
 nanoエディタを利用してindex.htmlファイルを作成
 
-service httpd restart
 
 
