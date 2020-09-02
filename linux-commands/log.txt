@@ -1,0 +1,12 @@
+【Mac】ターミナル操作をログに残す方法
+
+script 
+date
+
+
+書き出し中はbash-3.2$と表示されます。
+
+
+
+
+https://hira98.hatenablog.com/entry/2019/05/29/190700
